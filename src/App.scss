@@ -1,0 +1,31 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    &__paginate{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        span{
+            padding: 10px;
+        }
+    }
+    &__stopWatch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &--btn{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            button{
+                margin: 10px;
+            }
+        }
+    }
+}
